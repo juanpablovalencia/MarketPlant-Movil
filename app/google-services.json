@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "9204330132",
+    "project_id": "marketplant-860d6",
+    "storage_bucket": "marketplant-860d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9204330132:android:900ea34b2f9f8453b90e81",
+        "android_client_info": {
+          "package_name": "com.example.marketplant_mobil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9204330132-f8mpqlfsap0ahcg368jn67hbamauu53v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marketplant_mobil",
+            "certificate_hash": "37397b215e6b0bdd8633880767be1fcba0c05e23"
+          }
+        },
+        {
+          "client_id": "9204330132-ko1ipbgeo9h0ekq15pbudt67r8j28lfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJuDvMA_vcLfbK5Olt1kRESmW2r7HT3uU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9204330132-ko1ipbgeo9h0ekq15pbudt67r8j28lfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

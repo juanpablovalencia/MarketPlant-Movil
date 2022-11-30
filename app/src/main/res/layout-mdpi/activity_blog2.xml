@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BlogActivity">
+
+    <include layout="@layout/content_layout"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="100px"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/Id"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:text="ID" />
+
+        <EditText
+            android:id="@+id/txtId"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/titulos"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:text="TITULOS" />
+
+        <EditText
+            android:id="@+id/txtTitulos"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/descripciones"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:text="DESCRIPCION" />
+
+        <EditText
+            android:id="@+id/txtDescripciones"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="20dp"
+            android:text="Crear"
+            app:cornerRadius="10dp"
+            app:toggleCheckedStateOnClick="false" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="20dp"
+            android:text="Eliminar Blog"
+            app:cornerRadius="10dp"
+            app:toggleCheckedStateOnClick="false" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnVolver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="20dp"
+            android:text="Regresar"
+            app:cornerRadius="10dp"
+            app:toggleCheckedStateOnClick="false" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
